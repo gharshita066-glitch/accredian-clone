@@ -4,7 +4,7 @@ A responsive landing page clone built with Next.js, replicating Accredian's webs
 
 ## Live Demo
 
-🔗 [View Live Site](https://accredian-clone-mnwd-bt3yq6y7x-harshitag.vercel.app/)
+🔗 [View Live Site](https://accredian-clone-mnwd.vercel.app/)
 
 ## Tech Stack
 
