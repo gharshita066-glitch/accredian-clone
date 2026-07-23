@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Accredian Clone
 
-## Getting Started
+A responsive landing page clone built with Next.js, replicating Accredian's website design and structure.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [View Live Site](https://accredian-clone-mnwd-bt3yq6y7x-harshitag.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Framework: Next.js 14 (App Router)
+- Styling: Tailwind CSS
+- Animations: Framer Motion
+- Icons: Lucide React, React Icons
+- Deployment: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup Instructions
 
-## Learn More
+ 1. Clone the repository
+ 2. Install dependencies
+ 3. Run the development server
+ 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## Approach
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project was built using Next.js App Router with functional components and React hooks throughout. The UI was structured into reusable components (navigation, landing sections, footer) to keep the codebase clean and maintainable. Tailwind CSS was used for styling to ensure a fully responsive layout across mobile and desktop. Framer Motion was added for smooth section transitions and navigation animations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## AI Usage
 
-## Deploy on Vercel
+AI tools (Claude) were used throughout development, primarily for:
+- Debugging deployment issues on Vercel, including resolving npm dependency conflicts (peer dependency mismatch with lucide-react)
+- Identifying and fixing a missing @tailwindcss/postcss dependency that was causing build failures
+- General guidance on Next.js and Tailwind configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All AI-suggested fixes were reviewed and applied manually by editing package.json and .npmrc directly, then verified through Vercel's build logs before confirming the deployment was successful.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Improvements With More Time
+
+- Add unit and integration tests for components
+- Replace mock content/data with a real API integration
+- Improve accessibility (ARIA labels, keyboard navigation)
+- Add dark mode support
+- Optimize image loading and Lighthouse performance score
+- Clean up duplicate Vercel projects created during initial deployment troubleshooting
