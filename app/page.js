@@ -8,6 +8,7 @@ import TrustedCompanies from "@/components/TrustedCompanies";
 import Stats from "@/components/Stats";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
+import LeadCapture from "../components/LeadCapture";
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <CTA />
+      <LeadCapture />
       <Footer />
+    
     </>
   );
 }
